@@ -29,7 +29,7 @@ public class elevator extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        One = new javax.swing.JButton();
+        onebtn = new javax.swing.JButton();
         jButton1 = new javax.swing.JButton();
         jButton2 = new javax.swing.JButton();
         jButton3 = new javax.swing.JButton();
@@ -41,16 +41,16 @@ public class elevator extends javax.swing.JFrame {
         setTitle("Elevator");
         setBackground(new java.awt.Color(0, 51, 51));
 
-        One.setBackground(new java.awt.Color(102, 102, 102));
-        One.setText("1");
-        One.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
+        onebtn.setBackground(new java.awt.Color(102, 102, 102));
+        onebtn.setText("1");
+        onebtn.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
             public void mouseMoved(java.awt.event.MouseEvent evt) {
-                OneMouseMoved(evt);
+                onebtnMouseMoved(evt);
             }
         });
-        One.addActionListener(new java.awt.event.ActionListener() {
+        onebtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                OneActionPerformed(evt);
+                onebtnActionPerformed(evt);
             }
         });
 
@@ -87,7 +87,7 @@ public class elevator extends javax.swing.JFrame {
                         .addGap(114, 114, 114)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                             .addComponent(jButton5, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(One, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(onebtn, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                             .addComponent(jButton2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                         .addGap(41, 41, 41)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
@@ -104,7 +104,7 @@ public class elevator extends javax.swing.JFrame {
             .addGroup(layout.createSequentialGroup()
                 .addGap(71, 71, 71)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(One)
+                    .addComponent(onebtn)
                     .addComponent(jButton1))
                 .addGap(36, 36, 36)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
@@ -122,13 +122,13 @@ public class elevator extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void OneActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_OneActionPerformed
+    private void onebtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_onebtnActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_OneActionPerformed
+    }//GEN-LAST:event_onebtnActionPerformed
 
-    private void OneMouseMoved(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_OneMouseMoved
+    private void onebtnMouseMoved(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_onebtnMouseMoved
         // TODO add your handling code here:
-    }//GEN-LAST:event_OneMouseMoved
+    }//GEN-LAST:event_onebtnMouseMoved
 
     private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
         // TODO add your handling code here:
@@ -170,12 +170,12 @@ public class elevator extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton One;
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton3;
     private javax.swing.JButton jButton4;
     private javax.swing.JButton jButton5;
     private javax.swing.JButton jButton6;
+    private javax.swing.JButton onebtn;
     // End of variables declaration//GEN-END:variables
 }
